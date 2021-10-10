@@ -92,7 +92,7 @@ body {
 
 /*----------hero----------*/
 .hero {
-  background-color: var(--secondary-text-color);
+  background-color: #2f303a;
 }
 .hero-title {
   font-weight: 900;
@@ -161,7 +161,7 @@ body {
 
 /*----------footer----------*/
 .footer {
-  background-color: var(--primary-title-color);
+  background-color: #2f303a;
 }
 .footer-geo-link {
   font-weight: 400;
@@ -184,4 +184,29 @@ body {
 .footer-geo-link:focus,
 .footer-geo-link:hover {
   color: var(--accent-color);
+}
+/*----------portfolio----------*/
+.portfolio-butn {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-title-color);
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
